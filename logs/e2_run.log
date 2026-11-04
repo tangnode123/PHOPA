@@ -1,0 +1,14 @@
+240 specs -> /mnt/wisdisk-prod/agents/99879a279ec44eb989d8c38e80227bec/universal_run-99879a279ec44eb989d8c38e80227bec/experiments/code/../logs/e2_disj.jsonl
+  20/240 37s eta 407s
+  40/240 85s eta 426s
+  60/240 252s eta 757s
+  80/240 324s eta 648s
+  100/240 436s eta 611s
+  120/240 574s eta 574s
+  140/240 614s eta 439s
+  160/240 670s eta 335s
+  180/240 742s eta 247s
+  200/240 847s eta 169s
+  220/240 1066s eta 97s
+  240/240 1303s eta 0s
+E2 done: 240 specs in 1303s

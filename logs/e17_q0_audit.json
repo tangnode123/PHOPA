@@ -1,0 +1,132 @@
+{
+ "configs": [
+  {
+   "S": 20,
+   "mh": 2,
+   "mv": 2,
+   "ra": 3,
+   "n_nonzero": 59318,
+   "n_duevert": 38,
+   "f1_viol": 0,
+   "f2_viol": 0,
+   "full_hist": {
+    "q>0,dz!=0": {
+     "1": 57760
+    },
+    "q>0,dz==0": {
+     "1": 1520
+    },
+    "q=0,dz!=0": {
+     "0": 38
+    }
+   }
+  },
+  {
+   "S": 20,
+   "mh": 1,
+   "mv": 1,
+   "ra": 3,
+   "n_nonzero": 59318,
+   "n_duevert": 38,
+   "f1_viol": 0,
+   "f2_viol": 0,
+   "full_hist": {
+    "q>0,dz!=0": {
+     "1": 57760
+    },
+    "q>0,dz==0": {
+     "1": 1520
+    },
+    "q=0,dz!=0": {
+     "0": 38
+    }
+   }
+  },
+  {
+   "S": 20,
+   "mh": 3,
+   "mv": 3,
+   "ra": 3,
+   "n_nonzero": 59318,
+   "n_duevert": 38,
+   "f1_viol": 0,
+   "f2_viol": 0,
+   "full_hist": {
+    "q>0,dz!=0": {
+     "1": 57760
+    },
+    "q>0,dz==0": {
+     "1": 1520
+    },
+    "q=0,dz!=0": {
+     "0": 38
+    }
+   }
+  },
+  {
+   "S": 20,
+   "mh": 2,
+   "mv": 5,
+   "ra": 3,
+   "n_nonzero": 59318,
+   "n_duevert": 38,
+   "f1_viol": 0,
+   "f2_viol": 0,
+   "full_hist": {
+    "q>0,dz!=0": {
+     "1": 57760
+    },
+    "q>0,dz==0": {
+     "1": 1520
+    },
+    "q=0,dz!=0": {
+     "0": 38
+    }
+   }
+  },
+  {
+   "S": 15,
+   "mh": 2,
+   "mv": 2,
+   "ra": 5,
+   "n_nonzero": 24388,
+   "n_duevert": 28,
+   "f1_viol": 0,
+   "f2_viol": 0,
+   "full_hist": {
+    "q>0,dz!=0": {
+     "1": 23520
+    },
+    "q>0,dz==0": {
+     "1": 840
+    },
+    "q=0,dz!=0": {
+     "0": 28
+    }
+   }
+  },
+  {
+   "S": 10,
+   "mh": 3,
+   "mv": 3,
+   "ra": 3,
+   "n_nonzero": 6858,
+   "n_duevert": 18,
+   "f1_viol": 0,
+   "f2_viol": 0,
+   "full_hist": {
+    "q>0,dz!=0": {
+     "1": 6480
+    },
+    "q>0,dz==0": {
+     "1": 360
+    },
+    "q=0,dz!=0": {
+     "0": 18
+    }
+   }
+  }
+ ],
+ "claim_holds": true,
+ "claim": "FULL one_sided3d sector is well-defined (exactly one (I,J)) iff q>0; due-above/below (q=0,dz!=0) admit ZERO full sectors (horizontal azimuth undefined) though their vertical component alone is JEPD. Horizontal JEPD holds on q>0; vertical JEPD holds on all nonzero vectors."
+}

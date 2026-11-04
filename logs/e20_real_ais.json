@@ -1,0 +1,972 @@
+{
+ "meta": {
+  "sx": 54,
+  "sy": 44,
+  "sz": 1,
+  "mh": 3,
+  "mv": 2,
+  "ra": 3,
+  "re": 3,
+  "emax": 0,
+  "mode": "consistent",
+  "pct_disj": 0.0,
+  "n_disj": 0
+ },
+ "real_stats": {
+  "n_obj": 24,
+  "n_con": 229,
+  "p": 64,
+  "n_edges": 32,
+  "n_anchor": 14,
+  "anchor_ratio": 0.583
+ },
+ "real_type_mix": {
+  "azim_range": 32,
+  "direction": 24,
+  "dist_rel": 31,
+  "distance_range": 64,
+  "location": 14,
+  "one_sided3d": 64
+ },
+ "vessels": [
+  {
+   "k": 1,
+   "name": "COURAGEOUS",
+   "mmsi": "368224850",
+   "lat": 40.65377,
+   "lon": -74.0302,
+   "sog": 26.2,
+   "cog": 213.4,
+   "x": 29,
+   "y": 8
+  },
+  {
+   "k": 2,
+   "name": "NYPD 39",
+   "mmsi": "367639050",
+   "lat": 40.71328,
+   "lon": -73.97064,
+   "sog": 16.7,
+   "cog": 13.8,
+   "x": 54,
+   "y": 41
+  },
+  {
+   "k": 3,
+   "name": "ARTHUR E IMPERATORE",
+   "mmsi": "368261450",
+   "lat": 40.71798,
+   "lon": -74.01887,
+   "sog": 15.6,
+   "cog": 9.3,
+   "x": 34,
+   "y": 43
+  },
+  {
+   "k": 4,
+   "name": "JOHN A NOBLE",
+   "mmsi": "367000110",
+   "lat": 40.6626,
+   "lon": -74.05151,
+   "sog": 14.6,
+   "cog": 211.0,
+   "x": 20,
+   "y": 13
+  },
+  {
+   "k": 5,
+   "name": "MAJESTIC PRINCESS",
+   "mmsi": "367662840",
+   "lat": 40.70409,
+   "lon": -73.99891,
+   "sog": 13.1,
+   "cog": 55.9,
+   "x": 42,
+   "y": 36
+  },
+  {
+   "k": 6,
+   "name": "CIRCLE LINE BROOKLYN",
+   "mmsi": "367402250",
+   "lat": 40.71917,
+   "lon": -74.02474,
+   "sog": 12.5,
+   "cog": 14.4,
+   "x": 31,
+   "y": 44
+  },
+  {
+   "k": 7,
+   "name": "DISCOVERY COAST",
+   "mmsi": "367515850",
+   "lat": 40.64737,
+   "lon": -74.09665,
+   "sog": 11.4,
+   "cog": 265.7,
+   "x": 1,
+   "y": 4
+  },
+  {
+   "k": 8,
+   "name": "NYPD 701",
+   "mmsi": "367661340",
+   "lat": 40.70202,
+   "lon": -74.00549,
+   "sog": 11.2,
+   "cog": 47.8,
+   "x": 39,
+   "y": 34
+  },
+  {
+   "k": 9,
+   "name": "HARBOR LIGHTS",
+   "mmsi": "367476430",
+   "lat": 40.70278,
+   "lon": -74.00031,
+   "sog": 10.8,
+   "cog": 49.1,
+   "x": 42,
+   "y": 35
+  },
+  {
+   "k": 10,
+   "name": "COMMODORE",
+   "mmsi": "368013770",
+   "lat": 40.69003,
+   "lon": -74.00928,
+   "sog": 10.8,
+   "cog": 25.6,
+   "x": 38,
+   "y": 28
+  },
+  {
+   "k": 11,
+   "name": "CIRCLE LINE LIBERTY",
+   "mmsi": "368012040",
+   "lat": 40.71809,
+   "lon": -74.02093,
+   "sog": 10.4,
+   "cog": 5.9,
+   "x": 33,
+   "y": 43
+  },
+  {
+   "k": 12,
+   "name": "SPIRIT OF AMERICA",
+   "mmsi": "366952890",
+   "lat": 40.64733,
+   "lon": -74.06521,
+   "sog": 9.9,
+   "cog": 65.0,
+   "x": 14,
+   "y": 4
+  },
+  {
+   "k": 13,
+   "name": "CIRCLE LINE STATEN I",
+   "mmsi": "367779250",
+   "lat": 40.71972,
+   "lon": -74.02021,
+   "sog": 9.8,
+   "cog": 11.4,
+   "x": 33,
+   "y": 44
+  },
+  {
+   "k": 14,
+   "name": "MANHATTAN II",
+   "mmsi": "367686740",
+   "lat": 40.71991,
+   "lon": -74.01937,
+   "sog": 9.7,
+   "cog": 14.8,
+   "x": 34,
+   "y": 44
+  },
+  {
+   "k": 15,
+   "name": "NYPD 9",
+   "mmsi": "367635490",
+   "lat": 40.70697,
+   "lon": -73.99603,
+   "sog": 9.6,
+   "cog": 48.5,
+   "x": 43,
+   "y": 37
+  },
+  {
+   "k": 16,
+   "name": "CIRCLE LINE QUEENS",
+   "mmsi": "367402210",
+   "lat": 40.69707,
+   "lon": -74.02553,
+   "sog": 9.6,
+   "cog": 16.0,
+   "x": 31,
+   "y": 32
+  },
+  {
+   "k": 17,
+   "name": "SKYLINE PRINCESS",
+   "mmsi": "366946170",
+   "lat": 40.69757,
+   "lon": -74.00752,
+   "sog": 9.5,
+   "cog": 65.9,
+   "x": 39,
+   "y": 32
+  },
+  {
+   "k": 18,
+   "name": "ENCHANTED",
+   "mmsi": "368284080",
+   "lat": 40.69966,
+   "lon": -74.00827,
+   "sog": 9.3,
+   "cog": 61.9,
+   "x": 38,
+   "y": 33
+  },
+  {
+   "k": 19,
+   "name": "FREEDOM",
+   "mmsi": "368217990",
+   "lat": 40.6979,
+   "lon": -74.03417,
+   "sog": 8.7,
+   "cog": 6.8,
+   "x": 27,
+   "y": 32
+  },
+  {
+   "k": 20,
+   "name": "FDNY M9B",
+   "mmsi": "367531640",
+   "lat": 40.65819,
+   "lon": -74.05282,
+   "sog": 8.6,
+   "cog": 215.6,
+   "x": 20,
+   "y": 10
+  },
+  {
+   "k": 21,
+   "name": "LUCILLE",
+   "mmsi": "368286710",
+   "lat": 40.6994,
+   "lon": -74.00459,
+   "sog": 8.5,
+   "cog": 57.9,
+   "x": 40,
+   "y": 33
+  },
+  {
+   "k": 22,
+   "name": "ATLANTIS",
+   "mmsi": "367010190",
+   "lat": 40.71777,
+   "lon": -74.02798,
+   "sog": 8.2,
+   "cog": 14.5,
+   "x": 30,
+   "y": 43
+  },
+  {
+   "k": 23,
+   "name": "NYPD 621",
+   "mmsi": "367639150",
+   "lat": 40.69817,
+   "lon": -74.0021,
+   "sog": 8.2,
+   "cog": 34.1,
+   "x": 41,
+   "y": 32
+  },
+  {
+   "k": 24,
+   "name": "SPIRIT OF NEW JERSEY",
+   "mmsi": "367016470",
+   "lat": 40.69705,
+   "lon": -74.01201,
+   "sog": 8.2,
+   "cog": 67.4,
+   "x": 37,
+   "y": 32
+  }
+ ],
+ "audit": {
+  "py_check_all": true,
+  "py_bad": [],
+  "clingo_verdict": "SAT"
+ },
+ "synth_dist": {
+  "n_obj": 24,
+  "n_con": 225,
+  "p": 135,
+  "anchor_ratio": 0.708,
+  "type_mix": {
+   "azim": 4,
+   "azim_range": 4,
+   "direction": 14,
+   "direction_range": 11,
+   "dist_rel": 31,
+   "distance_range": 19,
+   "distance_sq": 8,
+   "location": 17,
+   "one_sided3d": 102,
+   "pitch": 7,
+   "pitch_range": 8
+  }
+ },
+ "grounding": {
+  "naive": {
+   "inst": "e20_real_inst.lp",
+   "enc": "naive.lp",
+   "t_ground": 0.7224,
+   "n_atoms": 34389,
+   "n_rules": 710310,
+   "n_bodies": 487363,
+   "n_choices": 54,
+   "t_solve": 0.4668,
+   "t_total": 1.1892,
+   "verdict": "SAT",
+   "peak_rss_kb": 135296
+  },
+  "proj": {
+   "inst": "e20_real_inst.lp",
+   "enc": "proj.lp",
+   "t_ground": 0.8098,
+   "n_atoms": 99515,
+   "n_rules": 785543,
+   "n_bodies": 284210,
+   "n_choices": 30,
+   "t_solve": 0.4372,
+   "t_total": 1.247,
+   "verdict": "SAT",
+   "peak_rss_kb": 135296
+  }
+ },
+ "A": [
+  {
+   "k": 1,
+   "seed": 0,
+   "faulty_ids": [
+    43
+   ],
+   "faulty_types": [
+    "dist_rel"
+   ],
+   "best_cost": [
+    1
+   ],
+   "n_optimal": 11,
+   "t_solve": 4.93,
+   "drop_sets": [
+    [
+     43
+    ],
+    [
+     43
+    ],
+    [
+     43
+    ],
+    [
+     43
+    ],
+    [
+     43
+    ],
+    [
+     43
+    ],
+    [
+     43
+    ],
+    [
+     43
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  },
+  {
+   "k": 1,
+   "seed": 1,
+   "faulty_ids": [
+    176
+   ],
+   "faulty_types": [
+    "one_sided3d"
+   ],
+   "best_cost": [
+    1
+   ],
+   "n_optimal": 11,
+   "t_solve": 6.17,
+   "drop_sets": [
+    [
+     176
+    ],
+    [
+     176
+    ],
+    [
+     176
+    ],
+    [
+     176
+    ],
+    [
+     176
+    ],
+    [
+     176
+    ],
+    [
+     176
+    ],
+    [
+     176
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "seed": 0,
+   "faulty_ids": [
+    46,
+    182
+   ],
+   "faulty_types": [
+    "one_sided3d",
+    "distance_range"
+   ],
+   "best_cost": [
+    2
+   ],
+   "n_optimal": 11,
+   "t_solve": 15.05,
+   "drop_sets": [
+    [
+     46,
+     182
+    ],
+    [
+     46,
+     182
+    ],
+    [
+     46,
+     182
+    ],
+    [
+     46,
+     182
+    ],
+    [
+     46,
+     182
+    ],
+    [
+     46,
+     182
+    ],
+    [
+     46,
+     182
+    ],
+    [
+     46,
+     182
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "seed": 1,
+   "faulty_ids": [
+    51,
+    78
+   ],
+   "faulty_types": [
+    "one_sided3d",
+    "distance_range"
+   ],
+   "best_cost": [
+    2
+   ],
+   "n_optimal": 11,
+   "t_solve": 6.7,
+   "drop_sets": [
+    [
+     51,
+     78
+    ],
+    [
+     51,
+     78
+    ],
+    [
+     51,
+     78
+    ],
+    [
+     51,
+     78
+    ],
+    [
+     51,
+     78
+    ],
+    [
+     51,
+     78
+    ],
+    [
+     51,
+     78
+    ],
+    [
+     51,
+     78
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "seed": 0,
+   "faulty_ids": [
+    68,
+    79,
+    195
+   ],
+   "faulty_types": [
+    "distance_range",
+    "dist_rel",
+    "azim_range"
+   ],
+   "best_cost": [
+    3
+   ],
+   "n_optimal": 11,
+   "t_solve": 5.76,
+   "drop_sets": [
+    [
+     68,
+     79,
+     195
+    ],
+    [
+     68,
+     79,
+     195
+    ],
+    [
+     68,
+     79,
+     195
+    ],
+    [
+     68,
+     79,
+     195
+    ],
+    [
+     68,
+     79,
+     195
+    ],
+    [
+     68,
+     79,
+     195
+    ],
+    [
+     68,
+     79,
+     195
+    ],
+    [
+     68,
+     79,
+     195
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "seed": 1,
+   "faulty_ids": [
+    59,
+    154,
+    208
+   ],
+   "faulty_types": [
+    "one_sided3d",
+    "one_sided3d",
+    "one_sided3d"
+   ],
+   "best_cost": [
+    3
+   ],
+   "n_optimal": 11,
+   "t_solve": 11.0,
+   "drop_sets": [
+    [
+     59,
+     154,
+     208
+    ],
+    [
+     59,
+     154,
+     208
+    ],
+    [
+     59,
+     154,
+     208
+    ],
+    [
+     59,
+     154,
+     208
+    ],
+    [
+     59,
+     154,
+     208
+    ],
+    [
+     59,
+     154,
+     208
+    ],
+    [
+     59,
+     154,
+     208
+    ],
+    [
+     59,
+     154,
+     208
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  }
+ ],
+ "A_agg": {
+  "1": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact_rate": 1.0
+  },
+  "2": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact_rate": 1.0
+  },
+  "3": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact_rate": 1.0
+  }
+ },
+ "B": [
+  {
+   "target": 17,
+   "n_perc": 30,
+   "n_models": 10,
+   "n_cand": 1,
+   "true_pos": [
+    39,
+    32,
+    1
+   ],
+   "true_in_cand": true,
+   "t_solve": 0.6
+  },
+  {
+   "target": 20,
+   "n_perc": 24,
+   "n_models": 10,
+   "n_cand": 1,
+   "true_pos": [
+    20,
+    10,
+    1
+   ],
+   "true_in_cand": true,
+   "t_solve": 0.59
+  },
+  {
+   "target": 12,
+   "n_perc": 18,
+   "n_models": 10,
+   "n_cand": 1,
+   "true_pos": [
+    14,
+    4,
+    1
+   ],
+   "true_in_cand": true,
+   "t_solve": 0.59
+  }
+ ],
+ "B_summary": {
+  "n": 3,
+  "coverage": 1.0,
+  "median_cand": 1
+ }
+}

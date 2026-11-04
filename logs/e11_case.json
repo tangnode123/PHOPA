@@ -1,0 +1,249 @@
+{
+ "meta": {
+  "sx": 50,
+  "sy": 50,
+  "sz": 24,
+  "mh": 2,
+  "mv": 2,
+  "ra": 3,
+  "re": 3
+ },
+ "n_obj": 27,
+ "n_con": 74,
+ "con_types": {
+  "location": 27,
+  "direction": 15,
+  "one_sided3d": 10,
+  "dist_rel": 6,
+  "azim_range": 3,
+  "distance_range": 3,
+  "min_gap": 10
+ },
+ "density": 2.74,
+ "derivation_selfcheck": true,
+ "tasks": [
+  {
+   "task": "T1_consistency",
+   "n_models": 1,
+   "n_optimal": 1,
+   "exhausted": true,
+   "t_ground": 0.23,
+   "t_solve": 0.0,
+   "n_valid": 1,
+   "n_invalid": 0,
+   "invalid_sample": [],
+   "cautious": [],
+   "n_brave": 0,
+   "drops": [],
+   "violated": [],
+   "chosen": []
+  },
+  {
+   "task": "T2_fault_localization",
+   "n_models": 2,
+   "n_optimal": 2,
+   "exhausted": true,
+   "t_ground": 0.25,
+   "t_solve": 0.0,
+   "n_valid": 2,
+   "n_invalid": 0,
+   "invalid_sample": [],
+   "cautious": [],
+   "n_brave": 0,
+   "drops": [
+    [
+     49
+    ],
+    [
+     49
+    ]
+   ],
+   "violated": [
+    [],
+    []
+   ],
+   "chosen": [],
+   "corrupt_id": 49
+  },
+  {
+   "task": "T3_missing_position",
+   "n_models": 13,
+   "n_optimal": 13,
+   "exhausted": true,
+   "t_ground": 0.76,
+   "t_solve": 0.52,
+   "n_valid": 13,
+   "n_invalid": 0,
+   "invalid_sample": [],
+   "cautious": [],
+   "n_brave": 13,
+   "drops": [],
+   "violated": [],
+   "chosen": [],
+   "cand_pos_21": [
+    [
+     28,
+     16,
+     1
+    ],
+    [
+     28,
+     16,
+     2
+    ],
+    [
+     28,
+     16,
+     3
+    ],
+    [
+     28,
+     16,
+     4
+    ],
+    [
+     28,
+     17,
+     1
+    ],
+    [
+     28,
+     17,
+     2
+    ],
+    [
+     29,
+     16,
+     1
+    ],
+    [
+     29,
+     16,
+     2
+    ],
+    [
+     29,
+     16,
+     3
+    ],
+    [
+     29,
+     17,
+     1
+    ],
+    [
+     29,
+     17,
+     2
+    ],
+    [
+     29,
+     17,
+     3
+    ],
+    [
+     29,
+     17,
+     4
+    ]
+   ],
+   "n_cand_pos_21": 13,
+   "true_pos_21": [
+    28,
+    16,
+    1
+   ],
+   "true_in_candidates": true
+  },
+  {
+   "task": "T4_missing_orientation",
+   "n_models": 1,
+   "n_optimal": 1,
+   "exhausted": true,
+   "t_ground": 0.26,
+   "t_solve": 0.0,
+   "n_valid": 1,
+   "n_invalid": 0,
+   "invalid_sample": [],
+   "cautious": [
+    "inferred_orient(23,315)"
+   ],
+   "n_brave": 1,
+   "drops": [],
+   "violated": [],
+   "chosen": [],
+   "cand_yaw_23": [
+    315
+   ],
+   "n_cand_yaw_23": 1,
+   "true_yaw_23": 315,
+   "true_in_candidates": true
+  },
+  {
+   "task": "T5_disjunctive_perception",
+   "n_models": 1,
+   "n_optimal": 1,
+   "exhausted": true,
+   "t_ground": 0.7,
+   "t_solve": 0.59,
+   "n_valid": 1,
+   "n_invalid": 0,
+   "invalid_sample": [],
+   "cautious": [
+    "inferred_pos(27,36,28,1)"
+   ],
+   "n_brave": 1,
+   "drops": [],
+   "violated": [],
+   "chosen": [
+    [
+     75,
+     1
+    ]
+   ],
+   "cand_pos_27": [
+    [
+     36,
+     28,
+     1
+    ]
+   ],
+   "n_cand_pos_27": 1,
+   "true_pos_27": [
+    36,
+    28,
+    1
+   ],
+   "true_in_candidates": true
+  }
+ ],
+ "names": {
+  "1": "control_tower",
+  "2": "breakwater_light",
+  "3": "buoy_port",
+  "4": "buoy_starboard",
+  "5": "crane_1",
+  "6": "crane_2",
+  "7": "crane_3",
+  "8": "crane_4",
+  "9": "stack_1",
+  "10": "stack_2",
+  "11": "stack_3",
+  "12": "stack_4",
+  "13": "stack_5",
+  "14": "stack_6",
+  "15": "stack_7",
+  "16": "stack_8",
+  "17": "ship_berth_A",
+  "18": "ship_berth_B",
+  "19": "ship_berth_C",
+  "20": "ship_inbound",
+  "21": "ship_transit",
+  "22": "ferry",
+  "23": "uav_patrol_1",
+  "24": "uav_patrol_2",
+  "25": "uav_port",
+  "26": "uav_relay",
+  "27": "small_boat"
+ }
+}

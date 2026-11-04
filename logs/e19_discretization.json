@@ -1,0 +1,196 @@
+{
+ "S": 30,
+ "mvs": [
+  1,
+  2,
+  3,
+  5
+ ],
+ "note": "exhaustive over grid vectors; real=exact atan2 reference",
+ "results": [
+  {
+   "mv": 1,
+   "n_vectors": 205378,
+   "variants": {
+    "canonical": {
+     "scale": 1000,
+     "div_vs_real": 0,
+     "rate_vs_real": 0.0,
+     "div_vs_canonical": 0,
+     "bwidth_deg_mean": null,
+     "bwidth_deg_max": null,
+     "bwidth_deg_p50": null,
+     "bwidth_deg_p90": null
+    },
+    "q_round": {
+     "scale": 1000,
+     "div_vs_real": 0,
+     "rate_vs_real": 0.0,
+     "div_vs_canonical": 0,
+     "bwidth_deg_mean": null,
+     "bwidth_deg_max": null,
+     "bwidth_deg_p50": null,
+     "bwidth_deg_p90": null
+    },
+    "tb4": {
+     "scale": 10000,
+     "div_vs_real": 0,
+     "rate_vs_real": 0.0,
+     "div_vs_canonical": 0,
+     "bwidth_deg_mean": null,
+     "bwidth_deg_max": null,
+     "bwidth_deg_p50": null,
+     "bwidth_deg_p90": null
+    },
+    "tb6": {
+     "scale": 1000000,
+     "div_vs_real": 0,
+     "rate_vs_real": 0.0,
+     "div_vs_canonical": 0,
+     "bwidth_deg_mean": null,
+     "bwidth_deg_max": null,
+     "bwidth_deg_p50": null,
+     "bwidth_deg_p90": null
+    }
+   }
+  },
+  {
+   "mv": 2,
+   "n_vectors": 205378,
+   "variants": {
+    "canonical": {
+     "scale": 1000,
+     "div_vs_real": 0,
+     "rate_vs_real": 0.0,
+     "div_vs_canonical": 0,
+     "bwidth_deg_mean": null,
+     "bwidth_deg_max": null,
+     "bwidth_deg_p50": null,
+     "bwidth_deg_p90": null
+    },
+    "q_round": {
+     "scale": 1000,
+     "div_vs_real": 0,
+     "rate_vs_real": 0.0,
+     "div_vs_canonical": 0,
+     "bwidth_deg_mean": null,
+     "bwidth_deg_max": null,
+     "bwidth_deg_p50": null,
+     "bwidth_deg_p90": null
+    },
+    "tb4": {
+     "scale": 10000,
+     "div_vs_real": 0,
+     "rate_vs_real": 0.0,
+     "div_vs_canonical": 0,
+     "bwidth_deg_mean": null,
+     "bwidth_deg_max": null,
+     "bwidth_deg_p50": null,
+     "bwidth_deg_p90": null
+    },
+    "tb6": {
+     "scale": 1000000,
+     "div_vs_real": 0,
+     "rate_vs_real": 0.0,
+     "div_vs_canonical": 0,
+     "bwidth_deg_mean": null,
+     "bwidth_deg_max": null,
+     "bwidth_deg_p50": null,
+     "bwidth_deg_p90": null
+    }
+   }
+  },
+  {
+   "mv": 3,
+   "n_vectors": 205378,
+   "variants": {
+    "canonical": {
+     "scale": 1000,
+     "div_vs_real": 1560,
+     "rate_vs_real": 0.007596,
+     "div_vs_canonical": 0,
+     "bwidth_deg_mean": 0.3954,
+     "bwidth_deg_max": 2.7744,
+     "bwidth_deg_p50": 0.2865,
+     "bwidth_deg_p90": 0.8784
+    },
+    "q_round": {
+     "scale": 1000,
+     "div_vs_real": 912,
+     "rate_vs_real": 0.004441,
+     "div_vs_canonical": 1592,
+     "bwidth_deg_mean": 0.2181,
+     "bwidth_deg_max": 0.8784,
+     "bwidth_deg_p50": 0.1793,
+     "bwidth_deg_p90": 0.4628
+    },
+    "tb4": {
+     "scale": 10000,
+     "div_vs_real": 1560,
+     "rate_vs_real": 0.007596,
+     "div_vs_canonical": 0,
+     "bwidth_deg_mean": 0.3954,
+     "bwidth_deg_max": 2.7744,
+     "bwidth_deg_p50": 0.2865,
+     "bwidth_deg_p90": 0.8784
+    },
+    "tb6": {
+     "scale": 1000000,
+     "div_vs_real": 1560,
+     "rate_vs_real": 0.007596,
+     "div_vs_canonical": 0,
+     "bwidth_deg_mean": 0.3954,
+     "bwidth_deg_max": 2.7744,
+     "bwidth_deg_p50": 0.2865,
+     "bwidth_deg_p90": 0.8784
+    }
+   }
+  },
+  {
+   "mv": 5,
+   "n_vectors": 205378,
+   "variants": {
+    "canonical": {
+     "scale": 1000,
+     "div_vs_real": 2280,
+     "rate_vs_real": 0.011101,
+     "div_vs_canonical": 0,
+     "bwidth_deg_mean": 0.5457,
+     "bwidth_deg_max": 7.3139,
+     "bwidth_deg_p50": 0.3631,
+     "bwidth_deg_p90": 1.1477
+    },
+    "q_round": {
+     "scale": 1000,
+     "div_vs_real": 1288,
+     "rate_vs_real": 0.006271,
+     "div_vs_canonical": 2256,
+     "bwidth_deg_mean": 0.3043,
+     "bwidth_deg_max": 1.5714,
+     "bwidth_deg_p50": 0.2042,
+     "bwidth_deg_p90": 0.6992
+    },
+    "tb4": {
+     "scale": 10000,
+     "div_vs_real": 2280,
+     "rate_vs_real": 0.011101,
+     "div_vs_canonical": 16,
+     "bwidth_deg_mean": 0.5457,
+     "bwidth_deg_max": 7.3139,
+     "bwidth_deg_p50": 0.3631,
+     "bwidth_deg_p90": 1.1477
+    },
+    "tb6": {
+     "scale": 1000000,
+     "div_vs_real": 2280,
+     "rate_vs_real": 0.011101,
+     "div_vs_canonical": 16,
+     "bwidth_deg_mean": 0.5457,
+     "bwidth_deg_max": 7.3139,
+     "bwidth_deg_p50": 0.3631,
+     "bwidth_deg_p90": 1.1477
+    }
+   }
+  }
+ ]
+}

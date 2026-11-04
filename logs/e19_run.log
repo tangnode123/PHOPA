@@ -1,0 +1,5 @@
+[MV=1] n=205378  canonical div_vs_real=0 (0.000%) bwidth_max=None  tb6 div=0 bwidth_max=None  q_round div=0
+[MV=2] n=205378  canonical div_vs_real=0 (0.000%) bwidth_max=None  tb6 div=0 bwidth_max=None  q_round div=0
+[MV=3] n=205378  canonical div_vs_real=1560 (0.760%) bwidth_max=2.7744  tb6 div=1560 bwidth_max=2.7744  q_round div=912
+[MV=5] n=205378  canonical div_vs_real=2280 (1.110%) bwidth_max=7.3139  tb6 div=2280 bwidth_max=7.3139  q_round div=1288
+E19 done -> /mnt/wisdisk-prod/agents/99879a279ec44eb989d8c38e80227bec/universal_run-99879a279ec44eb989d8c38e80227bec/experiments/code/../logs/e19_discretization.json

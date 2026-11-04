@@ -1,0 +1,16 @@
+15 specs -> /mnt/wisdisk-prod/agents/99879a279ec44eb989d8c38e80227bec/universal_run-99879a279ec44eb989d8c38e80227bec/experiments/code/../logs/e7_stress.jsonl
+1/15 e7_main_N80_s40_r0 proj=SAT naive=SAT (90s)
+2/15 e7_main_N60_s40_r0 proj=SAT naive=SAT (163s)
+3/15 e7_main_N100_s40_r0 proj=SAT naive=MEMKILL (209s)
+cannot allocate memory for thread-local data: ABORT
+4/15 e7_main_N60_s40_r1 proj=SAT naive=SAT (249s)
+5/15 e7_main_N60_s40_r2 proj=SAT naive=SAT (331s)
+6/15 e7_main_N100_s40_r1 proj=SAT naive=MEMKILL (337s)
+7/15 e7_main_N80_s40_r2 proj=SAT naive=SAT (408s)
+8/15 e7_main_N100_s40_r2 proj=MEMKILL naive=MEMKILL (412s)
+9/15 e7_main_N80_s40_r3 proj=MEMKILL naive=MEMKILL (470s)
+10/15 e7_main_N60_s40_r3 proj=SAT naive=SAT (510s)
+11/15 e7_main_N100_s40_r3 proj=MEMKILL naive=MEMKILL (533s)
+12/15 e7_main_N60_s40_r4 proj=SAT naive=SAT (567s)
+13/15 e7_main_N80_s40_r4 proj=MEMKILL naive=SAT (604s)
+14/15 e7_main_N100_s40_r4 proj=MEMKILL naive=MEMKILL (607s)

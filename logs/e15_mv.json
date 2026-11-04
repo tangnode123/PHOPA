@@ -1,0 +1,144 @@
+{
+ "mvs": [
+  1,
+  2,
+  3,
+  5
+ ],
+ "divergence": [
+  {
+   "mv": 1,
+   "n_pairs": 702,
+   "n_diverge": 0,
+   "rate": 0.0,
+   "details": []
+  },
+  {
+   "mv": 2,
+   "n_pairs": 702,
+   "n_diverge": 0,
+   "rate": 0.0,
+   "details": []
+  },
+  {
+   "mv": 3,
+   "n_pairs": 702,
+   "n_diverge": 0,
+   "rate": 0.0,
+   "details": []
+  },
+  {
+   "mv": 5,
+   "n_pairs": 702,
+   "n_diverge": 0,
+   "rate": 0.0,
+   "details": []
+  }
+ ],
+ "cases": [
+  {
+   "mv": 1,
+   "n_con": 74,
+   "T1_n_models": 1,
+   "T1_unique_valid": true,
+   "T2_corrupt_id": 49,
+   "T2_drops": [
+    [
+     49
+    ],
+    [
+     49
+    ]
+   ],
+   "T2_localized_correctly": true,
+   "T3_n_cand_pos_21": 13,
+   "T3_true_in_cand": true,
+   "T5_n_cand_pos_27": 1,
+   "T5_chosen": [
+    [
+     75,
+     1
+    ]
+   ],
+   "T5_ghost_excluded": true
+  },
+  {
+   "mv": 2,
+   "n_con": 74,
+   "T1_n_models": 1,
+   "T1_unique_valid": true,
+   "T2_corrupt_id": 49,
+   "T2_drops": [
+    [
+     49
+    ],
+    [
+     49
+    ]
+   ],
+   "T2_localized_correctly": true,
+   "T3_n_cand_pos_21": 13,
+   "T3_true_in_cand": true,
+   "T5_n_cand_pos_27": 1,
+   "T5_chosen": [
+    [
+     75,
+     1
+    ]
+   ],
+   "T5_ghost_excluded": true
+  },
+  {
+   "mv": 3,
+   "n_con": 74,
+   "T1_n_models": 1,
+   "T1_unique_valid": true,
+   "T2_corrupt_id": 49,
+   "T2_drops": [
+    [
+     49
+    ],
+    [
+     49
+    ]
+   ],
+   "T2_localized_correctly": true,
+   "T3_n_cand_pos_21": 13,
+   "T3_true_in_cand": true,
+   "T5_n_cand_pos_27": 1,
+   "T5_chosen": [
+    [
+     75,
+     1
+    ]
+   ],
+   "T5_ghost_excluded": true
+  },
+  {
+   "mv": 5,
+   "n_con": 74,
+   "T1_n_models": 1,
+   "T1_unique_valid": true,
+   "T2_corrupt_id": 49,
+   "T2_drops": [
+    [
+     49
+    ],
+    [
+     49
+    ]
+   ],
+   "T2_localized_correctly": true,
+   "T3_n_cand_pos_21": 9,
+   "T3_true_in_cand": true,
+   "T5_n_cand_pos_27": 1,
+   "T5_chosen": [
+    [
+     75,
+     1
+    ]
+   ],
+   "T5_ghost_excluded": true
+  }
+ ]
+}

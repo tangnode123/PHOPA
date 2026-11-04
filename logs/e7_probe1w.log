@@ -1,0 +1,6 @@
+4 specs -> /mnt/wisdisk-prod/agents/99879a279ec44eb989d8c38e80227bec/universal_run-99879a279ec44eb989d8c38e80227bec/experiments/code/../logs/e7_stress.jsonl
+1/4 e7_probe_N60_s40_r0 proj=SAT naive=SAT (170s)
+2/4 e7_probe_N100_s40_r0 proj=SAT naive=SAT (317s)
+3/4 e7_probe_N60_s50_r0 proj=MEMKILL naive=MEMKILL (357s)
+4/4 e7_probe_N100_s50_r0 proj=MEMKILL naive=MEMKILL (378s)
+phase=probe finished 4 specs in 378s

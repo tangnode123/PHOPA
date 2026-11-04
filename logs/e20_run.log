@@ -1,0 +1,26 @@
+=== E20: loading real NOAA AIS snapshot (NY Harbor) ===
+  moving vessels with valid COG in window: 63
+  selected 24 in distinct cells; grid 54x44x1 (cell=200.0m)
+  constraints: {"n_obj": 24, "n_con": 229, "p": 64, "n_edges": 32, "n_anchor": 14, "anchor_ratio": 0.583}
+  real type_mix: {"azim_range": 32, "direction": 24, "dist_rel": 31, "distance_range": 64, "location": 14, "one_sided3d": 64}
+=== consistency audit (clean real layout) ===
+   {"py_check_all": true, "py_bad": [], "clingo_verdict": "SAT"}
+=== synthetic size-matched distribution ===
+   {"n_obj": 24, "n_con": 225, "p": 135, "anchor_ratio": 0.708, "type_mix": {"azim": 4, "azim_range": 4, "direction": 14, "direction_range": 11, "dist_rel": 31, "distance_range": 19, "distance_sq": 8, "location": 17, "one_sided3d": 102, "pitch": 7, "pitch_range": 8}}
+=== grounding: naive vs proj on the REAL instance ===
+  naive: verdict=SAT n_atoms=34389 n_rules=710310 t_ground=0.7224 rss_kb=135296
+  proj: verdict=SAT n_atoms=99515 n_rules=785543 t_ground=0.8098 rss_kb=135296
+=== Part A: multi-error fault localization (real layout) ===
+[A k=1 s=0] faulty=[43] cost=[1] nopt=11 drops=[[43], [43]] t=4.93s
+[A k=1 s=1] faulty=[176] cost=[1] nopt=11 drops=[[176], [176]] t=6.17s
+[A k=2 s=0] faulty=[46, 182] cost=[2] nopt=11 drops=[[46, 182], [46, 182]] t=15.05s
+[A k=2 s=1] faulty=[51, 78] cost=[2] nopt=11 drops=[[51, 78], [51, 78]] t=6.7s
+[A k=3 s=0] faulty=[68, 79, 195] cost=[3] nopt=11 drops=[[68, 79, 195], [68, 79, 195]] t=5.76s
+[A k=3 s=1] faulty=[59, 154, 208] cost=[3] nopt=11 drops=[[59, 154, 208], [59, 154, 208]] t=11.0s
+  A aggregate: {"1": {"precision": 1.0, "recall": 1.0, "exact_rate": 1.0}, "2": {"precision": 1.0, "recall": 1.0, "exact_rate": 1.0}, "3": {"precision": 1.0, "recall": 1.0, "exact_rate": 1.0}}
+=== Part B: missing-position candidate inference (real layout) ===
+[B tgt=17] perc=30 cand=1 true_in=True models=10 t=0.6s
+[B tgt=20] perc=24 cand=1 true_in=True models=10 t=0.59s
+[B tgt=12] perc=18 cand=1 true_in=True models=10 t=0.59s
+  B summary: {"n": 3, "coverage": 1.0, "median_cand": 1}
+E20 done -> /mnt/wisdisk-prod/agents/99879a279ec44eb989d8c38e80227bec/universal_run-99879a279ec44eb989d8c38e80227bec/experiments/code/../logs/e20_real_ais.json

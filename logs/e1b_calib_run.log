@@ -1,0 +1,14 @@
+240 specs -> /mnt/wisdisk-prod/agents/99879a279ec44eb989d8c38e80227bec/universal_run-99879a279ec44eb989d8c38e80227bec/experiments/code/../logs/e1b_calib.jsonl
+  20/240 done, 8s elapsed, eta 85s
+  40/240 done, 16s elapsed, eta 81s
+  60/240 done, 39s elapsed, eta 116s
+  80/240 done, 62s elapsed, eta 124s
+  100/240 done, 80s elapsed, eta 112s
+  120/240 done, 95s elapsed, eta 95s
+  140/240 done, 138s elapsed, eta 98s
+  160/240 done, 171s elapsed, eta 85s
+  180/240 done, 208s elapsed, eta 69s
+  200/240 done, 229s elapsed, eta 46s
+  220/240 done, 326s elapsed, eta 30s
+  240/240 done, 391s elapsed, eta 0s
+phase=calib finished 240 specs in 391s, disagreements=0

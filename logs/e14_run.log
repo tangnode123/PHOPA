@@ -1,0 +1,11 @@
+E14: 9 specs x 3 variants -> /mnt/wisdisk-prod/agents/99879a279ec44eb989d8c38e80227bec/universal_run-99879a279ec44eb989d8c38e80227bec/experiments/code/../logs/e14_pairreuse.jsonl
+[1/9] r2 np=1.92 (18s)
+[2/9] r2 np=1.92 (37s)
+[3/9] r2 np=1.83 (38s)
+[4/9] r4 np=3.83 (84s)
+[5/9] r4 np=4.0 (87s)
+[6/9] r8 np=8.0 (216s)
+[7/9] r4 np=4.0 (262s)
+[8/9] r8 np=7.75 (324s)
+[9/9] r8 np=8.0 (463s)
+E14 done 462.93428804500036

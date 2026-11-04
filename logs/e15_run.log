@@ -1,0 +1,9 @@
+[MV=1] divergence 0/10 (0.0%)
+[MV=2] divergence 0/10 (0.0%)
+[MV=3] divergence 0/10 (0.0%)
+[MV=5] divergence 0/10 (0.0%)
+[MV=1] T1uniq=True T2ok=True T3cand=13 T5cand=1 ghostExcl=True
+[MV=2] T1uniq=True T2ok=True T3cand=13 T5cand=1 ghostExcl=True
+[MV=3] T1uniq=True T2ok=True T3cand=13 T5cand=1 ghostExcl=True
+[MV=5] T1uniq=True T2ok=True T3cand=9 T5cand=1 ghostExcl=True
+E15 done -> /mnt/wisdisk-prod/agents/99879a279ec44eb989d8c38e80227bec/universal_run-99879a279ec44eb989d8c38e80227bec/experiments/code/../logs/e15_mv.json

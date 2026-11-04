@@ -1,0 +1,14 @@
+E13: 12 specs x 2 variants -> /mnt/wisdisk-prod/agents/99879a279ec44eb989d8c38e80227bec/universal_run-99879a279ec44eb989d8c38e80227bec/experiments/code/../logs/e13_mix.jsonl
+[1/12] mixed seed_idx=1 (15s)
+[2/12] mixed seed_idx=0 (23s)
+[3/12] mixed seed_idx=2 (38s)
+[4/12] vertical_heavy seed_idx=0 (45s)
+[5/12] vertical_heavy seed_idx=1 (69s)
+[6/12] vertical_heavy seed_idx=2 (81s)
+[7/12] distance_heavy seed_idx=0 (88s)
+[8/12] distance_heavy seed_idx=1 (99s)
+[9/12] azimuth_heavy seed_idx=0 (103s)
+[10/12] distance_heavy seed_idx=2 (106s)
+[11/12] azimuth_heavy seed_idx=1 (109s)
+[12/12] azimuth_heavy seed_idx=2 (111s)
+E13 done 111.46400807699865

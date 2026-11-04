@@ -1,0 +1,794 @@
+{
+ "meta": {
+  "sx": 50,
+  "sy": 50,
+  "sz": 24,
+  "mh": 2,
+  "mv": 2,
+  "ra": 3,
+  "re": 3
+ },
+ "n_obj": 27,
+ "seeds": 4,
+ "A": [
+  {
+   "k": 1,
+   "seed": 0,
+   "faulty_ids": [
+    60
+   ],
+   "faulty_types": [
+    "azim_range"
+   ],
+   "best_cost": [
+    1
+   ],
+   "n_optimal": 2,
+   "t_solve": 0.0,
+   "drop_sets": [
+    [
+     60
+    ],
+    [
+     60
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  },
+  {
+   "k": 1,
+   "seed": 1,
+   "faulty_ids": [
+    61
+   ],
+   "faulty_types": [
+    "azim_range"
+   ],
+   "best_cost": [
+    1
+   ],
+   "n_optimal": 2,
+   "t_solve": 0.0,
+   "drop_sets": [
+    [
+     61
+    ],
+    [
+     61
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  },
+  {
+   "k": 1,
+   "seed": 2,
+   "faulty_ids": [
+    45
+   ],
+   "faulty_types": [
+    "one_sided3d"
+   ],
+   "best_cost": [
+    1
+   ],
+   "n_optimal": 2,
+   "t_solve": 0.0,
+   "drop_sets": [
+    [
+     45
+    ],
+    [
+     45
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  },
+  {
+   "k": 1,
+   "seed": 3,
+   "faulty_ids": [
+    58
+   ],
+   "faulty_types": [
+    "dist_rel"
+   ],
+   "best_cost": [
+    1
+   ],
+   "n_optimal": 2,
+   "t_solve": 0.0,
+   "drop_sets": [
+    [
+     58
+    ],
+    [
+     58
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "seed": 0,
+   "faulty_ids": [
+    53,
+    57
+   ],
+   "faulty_types": [
+    "dist_rel",
+    "dist_rel"
+   ],
+   "best_cost": [
+    2
+   ],
+   "n_optimal": 2,
+   "t_solve": 0.0,
+   "drop_sets": [
+    [
+     53,
+     57
+    ],
+    [
+     53,
+     57
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "seed": 1,
+   "faulty_ids": [
+    49,
+    50
+   ],
+   "faulty_types": [
+    "one_sided3d",
+    "one_sided3d"
+   ],
+   "best_cost": [
+    2
+   ],
+   "n_optimal": 2,
+   "t_solve": 0.0,
+   "drop_sets": [
+    [
+     49,
+     50
+    ],
+    [
+     49,
+     50
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "seed": 2,
+   "faulty_ids": [
+    45,
+    59
+   ],
+   "faulty_types": [
+    "one_sided3d",
+    "azim_range"
+   ],
+   "best_cost": [
+    2
+   ],
+   "n_optimal": 2,
+   "t_solve": 0.0,
+   "drop_sets": [
+    [
+     45,
+     59
+    ],
+    [
+     45,
+     59
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  },
+  {
+   "k": 2,
+   "seed": 3,
+   "faulty_ids": [
+    56,
+    58
+   ],
+   "faulty_types": [
+    "dist_rel",
+    "dist_rel"
+   ],
+   "best_cost": [
+    2
+   ],
+   "n_optimal": 2,
+   "t_solve": 0.0,
+   "drop_sets": [
+    [
+     56,
+     58
+    ],
+    [
+     56,
+     58
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "seed": 0,
+   "faulty_ids": [
+    45,
+    49,
+    55
+   ],
+   "faulty_types": [
+    "one_sided3d",
+    "one_sided3d",
+    "dist_rel"
+   ],
+   "best_cost": [
+    3
+   ],
+   "n_optimal": 2,
+   "t_solve": 0.0,
+   "drop_sets": [
+    [
+     45,
+     49,
+     55
+    ],
+    [
+     45,
+     49,
+     55
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "seed": 1,
+   "faulty_ids": [
+    45,
+    54,
+    59
+   ],
+   "faulty_types": [
+    "dist_rel",
+    "one_sided3d",
+    "azim_range"
+   ],
+   "best_cost": [
+    3
+   ],
+   "n_optimal": 2,
+   "t_solve": 0.0,
+   "drop_sets": [
+    [
+     45,
+     54,
+     59
+    ],
+    [
+     45,
+     54,
+     59
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "seed": 2,
+   "faulty_ids": [
+    44,
+    48,
+    57
+   ],
+   "faulty_types": [
+    "dist_rel",
+    "one_sided3d",
+    "one_sided3d"
+   ],
+   "best_cost": [
+    3
+   ],
+   "n_optimal": 2,
+   "t_solve": 0.0,
+   "drop_sets": [
+    [
+     44,
+     48,
+     57
+    ],
+    [
+     44,
+     48,
+     57
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  },
+  {
+   "k": 3,
+   "seed": 3,
+   "faulty_ids": [
+    47,
+    49,
+    61
+   ],
+   "faulty_types": [
+    "one_sided3d",
+    "one_sided3d",
+    "azim_range"
+   ],
+   "best_cost": [
+    3
+   ],
+   "n_optimal": 2,
+   "t_solve": 0.0,
+   "drop_sets": [
+    [
+     47,
+     49,
+     61
+    ],
+    [
+     47,
+     49,
+     61
+    ]
+   ],
+   "pr": [
+    [
+     1.0,
+     1.0,
+     true
+    ],
+    [
+     1.0,
+     1.0,
+     true
+    ]
+   ]
+  }
+ ],
+ "A_agg": {
+  "1": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact_rate": 1.0
+  },
+  "2": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact_rate": 1.0
+  },
+  "3": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact_rate": 1.0
+  }
+ },
+ "A2": [
+  {
+   "seed": 0,
+   "freed": 21,
+   "faulty_ids": [
+    49
+   ],
+   "best_cost": [
+    1
+   ],
+   "n_optimal": 14,
+   "drop_sets": [
+    [
+     49
+    ],
+    [
+     49
+    ],
+    [
+     49
+    ],
+    [
+     49
+    ],
+    [
+     49
+    ],
+    [
+     49
+    ],
+    [
+     49
+    ],
+    [
+     49
+    ]
+   ],
+   "localized": true,
+   "absorbed": false,
+   "t_solve": 1.96
+  },
+  {
+   "seed": 1,
+   "freed": 27,
+   "faulty_ids": [
+    46
+   ],
+   "best_cost": [
+    1
+   ],
+   "n_optimal": 198,
+   "drop_sets": [
+    [
+     57
+    ],
+    [
+     57
+    ],
+    [
+     57
+    ],
+    [
+     57
+    ],
+    [
+     57
+    ],
+    [
+     57
+    ],
+    [
+     57
+    ],
+    [
+     57
+    ]
+   ],
+   "localized": false,
+   "absorbed": false,
+   "t_solve": 0.81
+  },
+  {
+   "seed": 2,
+   "freed": 20,
+   "faulty_ids": [
+    53
+   ],
+   "best_cost": [
+    1
+   ],
+   "n_optimal": 198,
+   "drop_sets": [
+    [
+     47
+    ],
+    [
+     43
+    ],
+    [
+     43
+    ],
+    [
+     43
+    ],
+    [
+     43
+    ],
+    [
+     47
+    ],
+    [
+     47
+    ],
+    [
+     47
+    ]
+   ],
+   "localized": false,
+   "absorbed": false,
+   "t_solve": 1.03
+  },
+  {
+   "seed": 3,
+   "freed": 21,
+   "faulty_ids": [
+    57
+   ],
+   "best_cost": [
+    1
+   ],
+   "n_optimal": 21,
+   "drop_sets": [
+    [
+     57
+    ],
+    [
+     57
+    ],
+    [
+     57
+    ],
+    [
+     57
+    ],
+    [
+     57
+    ],
+    [
+     57
+    ],
+    [
+     57
+    ],
+    [
+     57
+    ]
+   ],
+   "localized": true,
+   "absorbed": false,
+   "t_solve": 2.38
+  }
+ ],
+ "A2_summary": {
+  "n": 4,
+  "localized": 2,
+  "absorbed": 0
+ },
+ "B": [
+  {
+   "pct": 0,
+   "seed": 0,
+   "n_dropped": 0,
+   "n_models": 13,
+   "n_cand": 13,
+   "true_in_cand": true,
+   "t_solve": 0.38
+  },
+  {
+   "pct": 0,
+   "seed": 1,
+   "n_dropped": 0,
+   "n_models": 13,
+   "n_cand": 13,
+   "true_in_cand": true,
+   "t_solve": 0.38
+  },
+  {
+   "pct": 0,
+   "seed": 2,
+   "n_dropped": 0,
+   "n_models": 13,
+   "n_cand": 13,
+   "true_in_cand": true,
+   "t_solve": 0.38
+  },
+  {
+   "pct": 0,
+   "seed": 3,
+   "n_dropped": 0,
+   "n_models": 13,
+   "n_cand": 13,
+   "true_in_cand": true,
+   "t_solve": 0.37
+  },
+  {
+   "pct": 20,
+   "seed": 0,
+   "n_dropped": 4,
+   "n_models": 13,
+   "n_cand": 13,
+   "true_in_cand": true,
+   "t_solve": 0.37
+  },
+  {
+   "pct": 20,
+   "seed": 1,
+   "n_dropped": 4,
+   "n_models": 13,
+   "n_cand": 13,
+   "true_in_cand": true,
+   "t_solve": 0.44
+  },
+  {
+   "pct": 20,
+   "seed": 2,
+   "n_dropped": 4,
+   "n_models": 32,
+   "n_cand": 32,
+   "true_in_cand": true,
+   "t_solve": 0.44
+  },
+  {
+   "pct": 20,
+   "seed": 3,
+   "n_dropped": 4,
+   "n_models": 13,
+   "n_cand": 13,
+   "true_in_cand": true,
+   "t_solve": 0.39
+  },
+  {
+   "pct": 40,
+   "seed": 0,
+   "n_dropped": 9,
+   "n_models": 36,
+   "n_cand": 36,
+   "true_in_cand": true,
+   "t_solve": 0.6
+  },
+  {
+   "pct": 40,
+   "seed": 1,
+   "n_dropped": 9,
+   "n_models": 48,
+   "n_cand": 48,
+   "true_in_cand": true,
+   "t_solve": 0.57
+  },
+  {
+   "pct": 40,
+   "seed": 2,
+   "n_dropped": 9,
+   "n_models": 19,
+   "n_cand": 19,
+   "true_in_cand": true,
+   "t_solve": 0.55
+  },
+  {
+   "pct": 40,
+   "seed": 3,
+   "n_dropped": 9,
+   "n_models": 32,
+   "n_cand": 32,
+   "true_in_cand": true,
+   "t_solve": 0.46
+  }
+ ],
+ "B_summary": {
+  "0": {
+   "median_cand": 13,
+   "coverage": 1.0,
+   "n": 4
+  },
+  "20": {
+   "median_cand": 13,
+   "coverage": 1.0,
+   "n": 4
+  },
+  "40": {
+   "median_cand": 36,
+   "coverage": 1.0,
+   "n": 4
+  }
+ }
+}

@@ -1,0 +1,2 @@
+{"S": 50, "mv": 1, "n_points": 970298, "n_mismatch": 0, "mismatch_rate": 0.0, "n_boundary_ties": 0, "n_jepd_violations": 0, "mismatch_dist_to_boundary_mean": null, "mismatch_dist_to_boundary_min": null, "ok_dist_to_boundary_mean": 0.632425, "secs": 3.2}
+appended S=50 mv=1 to audit_semantics.json

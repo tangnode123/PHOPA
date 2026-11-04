@@ -1,0 +1,12 @@
+200 specs -> /mnt/wisdisk-prod/agents/99879a279ec44eb989d8c38e80227bec/universal_run-99879a279ec44eb989d8c38e80227bec/experiments/code/../logs/e1b_full.jsonl
+  20/200 done, 93s elapsed, eta 841s
+  40/200 done, 229s elapsed, eta 915s
+  60/200 done, 400s elapsed, eta 934s
+  80/200 done, 529s elapsed, eta 794s
+  100/200 done, 784s elapsed, eta 784s
+  120/200 done, 1043s elapsed, eta 695s
+  140/200 done, 1197s elapsed, eta 513s
+  160/200 done, 1636s elapsed, eta 409s
+  180/200 done, 1816s elapsed, eta 202s
+  200/200 done, 2313s elapsed, eta 0s
+phase=full finished 200 specs in 2313s, disagreements=0

@@ -1,0 +1,18 @@
+[4x10 consistent r0] dir=True clingo=SAT(0.0132) z3=TIMEOUT(30.3841) py=SAT agreeCZ=False agreeCP=True
+[4x10 consistent r1] dir=True clingo=SAT(0.0396) z3=TIMEOUT(30.2211) py=SAT agreeCZ=False agreeCP=True
+[4x10 inconsistent r0] dir=True clingo=UNSAT(0.0158) z3=UNSAT(0.064) py=None agreeCZ=True agreeCP=True
+[4x10 inconsistent r1] dir=True clingo=UNSAT(0.0853) z3=UNSAT(0.3307) py=None agreeCZ=True agreeCP=True
+[6x10 consistent r0] dir=True clingo=SAT(0.0109) z3=TIMEOUT(30.3756) py=SAT agreeCZ=False agreeCP=True
+[6x10 consistent r1] dir=True clingo=SAT(0.0498) z3=TIMEOUT(30.2582) py=SAT agreeCZ=False agreeCP=True
+[6x10 inconsistent r0] dir=True clingo=UNSAT(0.0338) z3=UNSAT(0.0547) py=None agreeCZ=True agreeCP=True
+[6x10 inconsistent r1] dir=True clingo=UNSAT(0.0363) z3=UNSAT(0.0612) py=None agreeCZ=True agreeCP=True
+[5x12 consistent r0] dir=True clingo=SAT(0.0347) z3=TIMEOUT(30.4051) py=SAT agreeCZ=False agreeCP=True
+[5x12 consistent r1] dir=False clingo=SAT(0.0018) z3=SAT(0.2369) py=SAT agreeCZ=True agreeCP=True
+[5x12 inconsistent r0] dir=True clingo=UNSAT(0.0457) z3=UNSAT(0.9228) py=None agreeCZ=True agreeCP=True
+[5x12 inconsistent r1] dir=True clingo=UNSAT(0.0438) z3=UNSAT(0.0748) py=None agreeCZ=True agreeCP=True
+[8x12 consistent r0] dir=True clingo=SAT(0.1561) z3=TIMEOUT(30.1621) py=SAT agreeCZ=False agreeCP=True
+[8x12 consistent r1] dir=True clingo=SAT(0.0972) z3=TIMEOUT(30.1514) py=SAT agreeCZ=False agreeCP=True
+[8x12 inconsistent r0] dir=True clingo=UNSAT(0.0015) z3=UNSAT(0.0814) py=None agreeCZ=True agreeCP=True
+[8x12 inconsistent r1] dir=True clingo=UNSAT(0.163) z3=UNSAT(0.0897) py=None agreeCZ=True agreeCP=True
+
+E16b probe: 16 instances, 15 with direction constraints; clingo==z3 9/16; clingo==py 16/16

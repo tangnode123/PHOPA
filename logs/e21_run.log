@@ -1,0 +1,15 @@
+[S=20 naive] verdict=SAT atoms=10842 rules=635335 bodies=523231 rss_kb=101516 t_ground=0.5848
+[S=20 proj] verdict=SAT atoms=18769 rules=255605 bodies=182793 rss_kb=78572 t_ground=0.2625
+[S=30 naive] verdict=SAT atoms=16583 rules=1834920 bodies=1723130 rss_kb=271200 t_ground=2.0317
+[S=30 proj] verdict=SAT atoms=40563 rules=676406 bodies=508457 rss_kb=166832 t_ground=0.6563
+[S=40 naive] verdict=SAT atoms=21819 rules=2036680 bodies=1918502 rss_kb=313672 t_ground=2.0775
+[S=40 proj] verdict=SAT atoms=53924 rules=631950 bodies=487507 rss_kb=188772 t_ground=0.6863
+[S=45 naive] verdict=SAT atoms=27665 rules=6071459 bodies=5590406 rss_kb=869352 t_ground=6.7912
+[S=45 proj] verdict=SAT atoms=89816 rules=1649387 bodies=1338357 rss_kb=475568 t_ground=1.8977
+[S=50 naive] verdict=SAT atoms=28765 rules=5003370 bodies=4802646 rss_kb=709476 t_ground=5.703
+[S=50 proj] verdict=SAT atoms=77225 rules=1169297 bodies=934751 rss_kb=301396 t_ground=1.3909
+
+naive: log-log slope atoms~S^1.09 bodies~S^2.45 rss~S^2.2 (over 5 surviving S)
+
+proj: log-log slope atoms~S^1.64 bodies~S^1.88 rss~S^1.66 (over 5 surviving S)
+E21 done -> /mnt/wisdisk-prod/agents/99879a279ec44eb989d8c38e80227bec/universal_run-99879a279ec44eb989d8c38e80227bec/experiments/code/../logs/e21_scale_boundary.jsonl
