@@ -1,0 +1,399 @@
+{
+  "started": "2026-09-11 06:33:01",
+  "horizontal_jepd": [
+    {
+      "mh": 1,
+      "ra": 1,
+      "n_psi": 360,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 1,
+      "ra": 2,
+      "n_psi": 180,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 1,
+      "ra": 3,
+      "n_psi": 120,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 1,
+      "ra": 5,
+      "n_psi": 72,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 1,
+      "ra": 6,
+      "n_psi": 60,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 1,
+      "ra": 10,
+      "n_psi": 36,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 1,
+      "ra": 15,
+      "n_psi": 24,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 1,
+      "ra": 30,
+      "n_psi": 12,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 2,
+      "ra": 1,
+      "n_psi": 360,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 2,
+      "ra": 3,
+      "n_psi": 120,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 2,
+      "ra": 5,
+      "n_psi": 72,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 2,
+      "ra": 15,
+      "n_psi": 24,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 3,
+      "ra": 1,
+      "n_psi": 360,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 3,
+      "ra": 2,
+      "n_psi": 180,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 3,
+      "ra": 3,
+      "n_psi": 120,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 3,
+      "ra": 5,
+      "n_psi": 72,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 3,
+      "ra": 6,
+      "n_psi": 60,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 3,
+      "ra": 10,
+      "n_psi": 36,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 3,
+      "ra": 15,
+      "n_psi": 24,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 3,
+      "ra": 30,
+      "n_psi": 12,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 5,
+      "ra": 1,
+      "n_psi": 360,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 5,
+      "ra": 2,
+      "n_psi": 180,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 5,
+      "ra": 3,
+      "n_psi": 120,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 5,
+      "ra": 6,
+      "n_psi": 60,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 10,
+      "ra": 1,
+      "n_psi": 360,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 10,
+      "ra": 3,
+      "n_psi": 120,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 30,
+      "ra": 1,
+      "n_psi": 360,
+      "n_unclassified": 0
+    },
+    {
+      "mh": 30,
+      "ra": 3,
+      "n_psi": 120,
+      "n_unclassified": 0
+    }
+  ],
+  "az_coverage": [
+    {
+      "S": 30,
+      "mh": 2,
+      "ra": 3,
+      "n_vectors": 3480,
+      "expected": 3480,
+      "n_bad_snap": 0,
+      "n_unclassified": 0
+    },
+    {
+      "S": 30,
+      "mh": 3,
+      "ra": 5,
+      "n_vectors": 3480,
+      "expected": 3480,
+      "n_bad_snap": 0,
+      "n_unclassified": 0
+    },
+    {
+      "S": 20,
+      "mh": 2,
+      "ra": 3,
+      "n_vectors": 1520,
+      "expected": 1520,
+      "n_bad_snap": 0,
+      "n_unclassified": 0
+    }
+  ],
+  "vertical": [
+    {
+      "S": 20,
+      "mv": 1,
+      "n_points": 59318,
+      "n_mismatch": 0,
+      "mismatch_rate": 0.0,
+      "n_boundary_ties": 0,
+      "n_jepd_violations": 0,
+      "mismatch_dist_to_boundary_mean": null,
+      "mismatch_dist_to_boundary_min": null,
+      "ok_dist_to_boundary_mean": 0.632948,
+      "secs": 0.1
+    },
+    {
+      "S": 20,
+      "mv": 2,
+      "n_points": 59318,
+      "n_mismatch": 0,
+      "mismatch_rate": 0.0,
+      "n_boundary_ties": 1520,
+      "n_jepd_violations": 0,
+      "mismatch_dist_to_boundary_mean": null,
+      "mismatch_dist_to_boundary_min": null,
+      "ok_dist_to_boundary_mean": 0.592312,
+      "secs": 0.1
+    },
+    {
+      "S": 20,
+      "mv": 3,
+      "n_points": 59318,
+      "n_mismatch": 752,
+      "mismatch_rate": 0.012677,
+      "n_boundary_ties": 0,
+      "n_jepd_violations": 0,
+      "mismatch_dist_to_boundary_mean": 0.018828,
+      "mismatch_dist_to_boundary_min": 0.000956,
+      "ok_dist_to_boundary_mean": 0.476415,
+      "secs": 0.2
+    },
+    {
+      "S": 20,
+      "mv": 5,
+      "n_points": 59318,
+      "n_mismatch": 1048,
+      "mismatch_rate": 0.017667,
+      "n_boundary_ties": 0,
+      "n_jepd_violations": 0,
+      "mismatch_dist_to_boundary_mean": 0.041438,
+      "mismatch_dist_to_boundary_min": 0.002216,
+      "ok_dist_to_boundary_mean": 0.529571,
+      "secs": 0.2
+    },
+    {
+      "S": 20,
+      "mv": 10,
+      "n_points": 59318,
+      "n_mismatch": 2096,
+      "mismatch_rate": 0.035335,
+      "n_boundary_ties": 1520,
+      "n_jepd_violations": 0,
+      "mismatch_dist_to_boundary_mean": 0.082311,
+      "mismatch_dist_to_boundary_min": 8.3e-05,
+      "ok_dist_to_boundary_mean": 0.514742,
+      "secs": 0.3
+    },
+    {
+      "S": 20,
+      "mv": 30,
+      "n_points": 59318,
+      "n_mismatch": 6728,
+      "mismatch_rate": 0.113423,
+      "n_boundary_ties": 1520,
+      "n_jepd_violations": 0,
+      "mismatch_dist_to_boundary_mean": 0.225634,
+      "mismatch_dist_to_boundary_min": 0.000249,
+      "ok_dist_to_boundary_mean": 0.52757,
+      "secs": 0.8
+    },
+    {
+      "S": 30,
+      "mv": 1,
+      "n_points": 205378,
+      "n_mismatch": 0,
+      "mismatch_rate": 0.0,
+      "n_boundary_ties": 0,
+      "n_jepd_violations": 0,
+      "mismatch_dist_to_boundary_mean": null,
+      "mismatch_dist_to_boundary_min": null,
+      "ok_dist_to_boundary_mean": 0.632602,
+      "secs": 0.4
+    },
+    {
+      "S": 30,
+      "mv": 2,
+      "n_points": 205378,
+      "n_mismatch": 0,
+      "mismatch_rate": 0.0,
+      "n_boundary_ties": 3480,
+      "n_jepd_violations": 0,
+      "mismatch_dist_to_boundary_mean": null,
+      "mismatch_dist_to_boundary_min": null,
+      "ok_dist_to_boundary_mean": 0.592294,
+      "secs": 0.5
+    },
+    {
+      "S": 30,
+      "mv": 3,
+      "n_points": 205378,
+      "n_mismatch": 1560,
+      "mismatch_rate": 0.007596,
+      "n_boundary_ties": 0,
+      "n_jepd_violations": 0,
+      "mismatch_dist_to_boundary_mean": 0.013181,
+      "mismatch_dist_to_boundary_min": 0.000344,
+      "ok_dist_to_boundary_mean": 0.473603,
+      "secs": 0.6
+    },
+    {
+      "S": 30,
+      "mv": 5,
+      "n_points": 205378,
+      "n_mismatch": 2280,
+      "mismatch_rate": 0.011101,
+      "n_boundary_ties": 0,
+      "n_jepd_violations": 0,
+      "mismatch_dist_to_boundary_mean": 0.030317,
+      "mismatch_dist_to_boundary_min": 0.000689,
+      "ok_dist_to_boundary_mean": 0.525613,
+      "secs": 0.7
+    },
+    {
+      "S": 30,
+      "mv": 10,
+      "n_points": 205378,
+      "n_mismatch": 4984,
+      "mismatch_rate": 0.024267,
+      "n_boundary_ties": 3480,
+      "n_jepd_violations": 0,
+      "mismatch_dist_to_boundary_mean": 0.059925,
+      "mismatch_dist_to_boundary_min": 8.3e-05,
+      "ok_dist_to_boundary_mean": 0.511517,
+      "secs": 1.2
+    },
+    {
+      "S": 30,
+      "mv": 30,
+      "n_points": 205378,
+      "n_mismatch": 15944,
+      "mismatch_rate": 0.077632,
+      "n_boundary_ties": 3480,
+      "n_jepd_violations": 0,
+      "mismatch_dist_to_boundary_mean": 0.168266,
+      "mismatch_dist_to_boundary_min": 0.000212,
+      "ok_dist_to_boundary_mean": 0.524466,
+      "secs": 2.9
+    },
+    {
+      "S": 50,
+      "mv": 2,
+      "n_points": 970298,
+      "n_mismatch": 0,
+      "mismatch_rate": 0.0,
+      "n_boundary_ties": 9800,
+      "n_jepd_violations": 0,
+      "mismatch_dist_to_boundary_mean": null,
+      "mismatch_dist_to_boundary_min": null,
+      "ok_dist_to_boundary_mean": 0.592285,
+      "secs": 2.2
+    },
+    {
+      "S": 50,
+      "mv": 3,
+      "n_points": 970298,
+      "n_mismatch": 4872,
+      "mismatch_rate": 0.005021,
+      "n_boundary_ties": 0,
+      "n_jepd_violations": 0,
+      "mismatch_dist_to_boundary_mean": 0.008183,
+      "mismatch_dist_to_boundary_min": 0.000119,
+      "ok_dist_to_boundary_mean": 0.472174,
+      "secs": 2.7
+    },
+    {
+      "S": 50,
+      "mv": 1,
+      "n_points": 970298,
+      "n_mismatch": 0,
+      "mismatch_rate": 0.0,
+      "n_boundary_ties": 0,
+      "n_jepd_violations": 0,
+      "mismatch_dist_to_boundary_mean": null,
+      "mismatch_dist_to_boundary_min": null,
+      "ok_dist_to_boundary_mean": 0.632425,
+      "secs": 3.2
+    }
+  ]
+}

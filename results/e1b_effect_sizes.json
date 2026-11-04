@@ -1,0 +1,242 @@
+{
+ "40x20xconsistent": {
+  "n_pairs": 15,
+  "total_ratio_median": 0.626,
+  "total_ratio_iqr": [
+   0.593,
+   0.734
+  ],
+  "cliff_total": 0.867,
+  "solve_ratio_median": 0.857,
+  "solve_ratio_iqr": [
+   0.727,
+   1.097
+  ],
+  "cliff_solve": 0.333
+ },
+ "40x20xinconsistent": {
+  "n_pairs": 15,
+  "total_ratio_median": 0.688,
+  "total_ratio_iqr": [
+   0.4,
+   0.769
+  ],
+  "cliff_total": 1.0,
+  "solve_ratio_median": 1.557,
+  "solve_ratio_iqr": [
+   0.382,
+   3.117
+  ],
+  "cliff_solve": -0.067
+ },
+ "40x30xconsistent": {
+  "n_pairs": 15,
+  "total_ratio_median": 0.59,
+  "total_ratio_iqr": [
+   0.534,
+   0.695
+  ],
+  "cliff_total": 1.0,
+  "solve_ratio_median": 0.805,
+  "solve_ratio_iqr": [
+   0.7,
+   1.14
+  ],
+  "cliff_solve": 0.333
+ },
+ "40x30xinconsistent": {
+  "n_pairs": 15,
+  "total_ratio_median": 0.549,
+  "total_ratio_iqr": [
+   0.339,
+   0.711
+  ],
+  "cliff_total": 1.0,
+  "solve_ratio_median": 0.925,
+  "solve_ratio_iqr": [
+   0.392,
+   4.372
+  ],
+  "cliff_solve": 0.067
+ },
+ "60x20xconsistent": {
+  "n_pairs": 15,
+  "total_ratio_median": 0.698,
+  "total_ratio_iqr": [
+   0.661,
+   0.732
+  ],
+  "cliff_total": 1.0,
+  "solve_ratio_median": 0.896,
+  "solve_ratio_iqr": [
+   0.862,
+   0.961
+  ],
+  "cliff_solve": 0.733
+ },
+ "60x20xinconsistent": {
+  "n_pairs": 15,
+  "total_ratio_median": 0.494,
+  "total_ratio_iqr": [
+   0.414,
+   0.798
+  ],
+  "cliff_total": 1.0,
+  "solve_ratio_median": 0.59,
+  "solve_ratio_iqr": [
+   0.403,
+   3.174
+  ],
+  "cliff_solve": 0.067
+ },
+ "60x30xconsistent": {
+  "n_pairs": 15,
+  "total_ratio_median": 0.615,
+  "total_ratio_iqr": [
+   0.541,
+   0.755
+  ],
+  "cliff_total": 0.733,
+  "solve_ratio_median": 0.887,
+  "solve_ratio_iqr": [
+   0.692,
+   1.275
+  ],
+  "cliff_solve": 0.333
+ },
+ "60x30xinconsistent": {
+  "n_pairs": 15,
+  "total_ratio_median": 0.356,
+  "total_ratio_iqr": [
+   0.34,
+   0.71
+  ],
+  "cliff_total": 1.0,
+  "solve_ratio_median": 0.389,
+  "solve_ratio_iqr": [
+   0.351,
+   2.062
+  ],
+  "cliff_solve": 0.467
+ },
+ "80x20xconsistent": {
+  "n_pairs": 10,
+  "total_ratio_median": 0.772,
+  "total_ratio_iqr": [
+   0.728,
+   0.806
+  ],
+  "cliff_total": 1.0,
+  "solve_ratio_median": 1.091,
+  "solve_ratio_iqr": [
+   0.914,
+   1.177
+  ],
+  "cliff_solve": -0.2
+ },
+ "80x20xinconsistent": {
+  "n_pairs": 10,
+  "total_ratio_median": 0.521,
+  "total_ratio_iqr": [
+   0.473,
+   0.844
+  ],
+  "cliff_total": 1.0,
+  "solve_ratio_median": 0.624,
+  "solve_ratio_iqr": [
+   0.47,
+   3.379
+  ],
+  "cliff_solve": 0.2
+ },
+ "80x30xconsistent": {
+  "n_pairs": 10,
+  "total_ratio_median": 0.642,
+  "total_ratio_iqr": [
+   0.502,
+   0.667
+  ],
+  "cliff_total": 0.8,
+  "solve_ratio_median": 0.842,
+  "solve_ratio_iqr": [
+   0.556,
+   0.999
+  ],
+  "cliff_solve": 0.6
+ },
+ "80x30xinconsistent": {
+  "n_pairs": 10,
+  "total_ratio_median": 0.539,
+  "total_ratio_iqr": [
+   0.324,
+   0.759
+  ],
+  "cliff_total": 1.0,
+  "solve_ratio_median": 0.819,
+  "solve_ratio_iqr": [
+   0.352,
+   4.189
+  ],
+  "cliff_solve": 0.2
+ },
+ "100x20xconsistent": {
+  "n_pairs": 10,
+  "total_ratio_median": 0.779,
+  "total_ratio_iqr": [
+   0.758,
+   0.816
+  ],
+  "cliff_total": 1.0,
+  "solve_ratio_median": 1.069,
+  "solve_ratio_iqr": [
+   1.038,
+   1.18
+  ],
+  "cliff_solve": -0.6
+ },
+ "100x20xinconsistent": {
+  "n_pairs": 10,
+  "total_ratio_median": 0.839,
+  "total_ratio_iqr": [
+   0.512,
+   0.869
+  ],
+  "cliff_total": 1.0,
+  "solve_ratio_median": 3.009,
+  "solve_ratio_iqr": [
+   0.545,
+   3.428
+  ],
+  "cliff_solve": -0.4
+ },
+ "100x30xconsistent": {
+  "n_pairs": 10,
+  "total_ratio_median": 0.698,
+  "total_ratio_iqr": [
+   0.587,
+   0.779
+  ],
+  "cliff_total": 1.0,
+  "solve_ratio_median": 1.039,
+  "solve_ratio_iqr": [
+   0.771,
+   1.194
+  ],
+  "cliff_solve": -0.2
+ },
+ "100x30xinconsistent": {
+  "n_pairs": 10,
+  "total_ratio_median": 0.759,
+  "total_ratio_iqr": [
+   0.725,
+   0.829
+  ],
+  "cliff_total": 1.0,
+  "solve_ratio_median": 4.049,
+  "solve_ratio_iqr": [
+   3.945,
+   4.218
+  ],
+  "cliff_solve": -0.8
+ }
+}
