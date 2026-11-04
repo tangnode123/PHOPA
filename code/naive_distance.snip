@@ -1,0 +1,13 @@
+% ---------- [NAIVE] distance constraints: full 3-way (DX,DY,DZ) join ----------
+:- dist_rel(N,K,L,Uc), act(N), point(K,P), point(L,R), drel(Uc,LB,UB),
+   xdist(P,R,DX), ydist(P,R,DY), zdist(P,R,DZ), DX*DX + DY*DY + DZ*DZ < LB*LB.
+:- dist_rel(N,K,L,Uc), act(N), point(K,P), point(L,R), drel(Uc,LB,UB),
+   xdist(P,R,DX), ydist(P,R,DY), zdist(P,R,DZ), DX*DX + DY*DY + DZ*DZ > UB*UB.
+:- distance(N,K,L,D), act(N), point(K,P), point(L,R),
+   xdist(P,R,DX), ydist(P,R,DY), zdist(P,R,DZ), DX*DX + DY*DY + DZ*DZ != D*D.
+:- distance_sq(N,K,L,DS), act(N), point(K,P), point(L,R),
+   xdist(P,R,DX), ydist(P,R,DY), zdist(P,R,DZ), DX*DX + DY*DY + DZ*DZ != DS.
+:- distance_range(N,K,L,D1,D2), act(N), point(K,P), point(L,R),
+   xdist(P,R,DX), ydist(P,R,DY), zdist(P,R,DZ), DX*DX + DY*DY + DZ*DZ < D1*D1.
+:- distance_range(N,K,L,D1,D2), act(N), point(K,P), point(L,R),
+   xdist(P,R,DX), ydist(P,R,DY), zdist(P,R,DZ), DX*DX + DY*DY + DZ*DZ > D2*D2.

@@ -1,0 +1,22 @@
+% ---------- [NAIVE] vertical sector checks: full 3-way (DX,DY,DZ) join ----------
+% J odd interior
+:- one_sided3d(N,K,L,I,J), act(N), point(K,P), point(L,R), JP = J\2, JP == 1,
+   JM = J-1, tb(JM,T1), xdist(P,R,DX), ydist(P,R,DY), zdist(P,R,DZ), q(DX,DY,Q),
+   Q > 0, DZ*1000 <= T1*Q.
+:- one_sided3d(N,K,L,I,J), act(N), point(K,P), point(L,R), JP = J\2, JP == 1,
+   JPL = J+1, tb(JPL,T2), xdist(P,R,DX), ydist(P,R,DY), zdist(P,R,DZ), q(DX,DY,Q),
+   Q > 0, DZ*1000 >= T2*Q.
+% J even interior (linear elevation)
+:- one_sided3d(N,K,L,I,J), act(N), point(K,P), point(L,R), JP = J\2, JP == 0,
+   J > 0, mv(G), TOP = 2*G, J < TOP, tb(J,T),
+   xdist(P,R,DX), ydist(P,R,DY), zdist(P,R,DZ), q(DX,DY,Q), DZ*1000 != T*Q.
+% J = 0 : straight down
+:- one_sided3d(N,K,L,I,0), act(N), point(K,P), point(L,R),
+   xdist(P,R,DX), ydist(P,R,DY), zdist(P,R,DZ), q(DX,DY,Q), Q > 0.
+:- one_sided3d(N,K,L,I,0), act(N), point(K,P), point(L,R),
+   xdist(P,R,DX), ydist(P,R,DY), zdist(P,R,DZ), q(DX,DY,0), DZ >= 0.
+% J = 2*MV : straight up
+:- one_sided3d(N,K,L,I,J), act(N), mv(G), J == 2*G, point(K,P), point(L,R),
+   xdist(P,R,DX), ydist(P,R,DY), zdist(P,R,DZ), q(DX,DY,Q), Q > 0.
+:- one_sided3d(N,K,L,I,J), act(N), mv(G), J == 2*G, point(K,P), point(L,R),
+   xdist(P,R,DX), ydist(P,R,DY), zdist(P,R,DZ), q(DX,DY,0), DZ <= 0.
