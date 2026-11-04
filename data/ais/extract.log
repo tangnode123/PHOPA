@@ -1,0 +1,5 @@
+  scanned 2,000,000 rows, kept 23,429
+  scanned 4,000,000 rows, kept 39,419
+  scanned 6,000,000 rows, kept 59,904
+  scanned 8,000,000 rows, kept 80,488
+DONE scanned 8,156,509 kept 82,092 -> ../data/ais/nybay_slice.csv
